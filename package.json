@@ -1,0 +1,15 @@
+{
+  "name": "rabbit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "publish" : "node src/publisher.js",
+    "consume" : "node src/consumer.js" 
+  },
+  "repository": "https://github.com/Felipalds/rabbit.git",
+  "author": "Luiz Felipe Fonseca Rosa <luizfelipefonsecarosa@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^0.10.2"
+  }
+}

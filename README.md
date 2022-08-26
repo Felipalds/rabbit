@@ -20,3 +20,8 @@
 4. Execute the messages
 
 ![](assets/diagram.jpg)
+
+### 1. You connect the publisher and then publish a JSON message
+### 2. You connect the consumer and then consume a JSON message
+### 3. Your consumer needs to ACK the message to remove it from the queue!
+        process.argv[2] //to recieve a input from script
